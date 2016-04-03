@@ -1,0 +1,9 @@
+while [ 1 ]
+do
+	if [ -d ~/Pictures/Wallpapers ]; then
+		rm ~/Pictures/Wallpapers/random
+		wget https://source.unsplash.com/random
+		feh --bg-scale random
+	fi
+	sleep 600
+done
