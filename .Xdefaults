@@ -1,0 +1,12 @@
+URxvt.font:            xft:Hack:size=10,Font Awesome:size=10
+URxvt.boldFont:        xft:Hack:bold:size=10
+URxvt.italicFont:      xft:Hack:italic:autohint=true:size=10
+URxvt.boldItalicFont:  xft:Hack:bold:italic:autohint=true:size=10
+URxvt.background: #323232
+URxvt.foreground: #F0F0F0
+URxvt.transparent: true
+URxvt.blurRadius: 5x15
+URxvt.shading:60
+! Decrease the letter space by one pixel
+URxvt.letterSpace: -1
+URxvt.scrollBar: false
