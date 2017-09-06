@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#Backup folder variabel
+BF="/media/jack/Backup_Data"
+
+echo "Copying Dev"
+cp -r /home/jack/Dev $BF/Dev
+echo "Copying School"
+cp -r /home/jack/School $BF/School
+
+echo "Removing old Backup"
+rm $BF/Backup.tar.gz
+
+echo "Creating archive of the Folders"
+tar -cvzf $BF/Backup.tar.gz $BF/Dev $BF/School
