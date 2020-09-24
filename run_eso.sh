@@ -1,0 +1,2 @@
+#WINEPREFIX=/home/jack/.proton/drive_c PROTON_NO_ESYNC=1 STEAM_COMPAT_DATA_PATH=/home/jack/.proton/ DXVK_HUD=fps,version /usr/bin/wine64 ~/.proton/drive_c/drive_c/Program\ Files\ \(x86\)/Zenimax\ Online/Launcher/Bethesda.net_Launcher.exe
+env STEAM_COMPAT_DATA_PATH=/home/jack/.proton/ DXVK_HUD=fps,version ~/.steam/steam/steamapps/common/Proton\ 5.0/proton waitforexitandrun ~/Downloads/Install_ESO.exe
